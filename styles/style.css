@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif;  
+}
+
+body {
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #e0e8ff;
+}
+
+.card {
+  width: 450px;
+  background-color: white;
+  color: #7280a7;
+  border-radius: 20px;
+  margin: 50px auto;
+  overflow: hidden;
+}
+
+.title {
+  color: #1f2f56;
+  font-weight: 900;
+  font-size: 32px;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+  font-size: 18px;
+}
+
+.container > * {
+  margin: 13px 0;
+}
+
+.container strong {
+  color: #1f2f56;
+}
+
+.order-description {
+  line-height: 25px;
+}
+
+.plan-container {
+  font-size: 16px;
+  background-color: #f5f7ff;
+  padding: 25px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plan-container a {
+  color: #3829e0;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.plan-container a:hover {
+  color: #736af1;
+  text-decoration: none;
+}
+
+.plan-description {
+  margin-right: 75px;
+  line-height: 20px;
+}
+
+button {
+  width: 100%;
+  border: none;
+  font-weight: 700;
+  font-size: 0.9rem;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.cancel-button {
+  background-color: white;
+  color: #7280a7;
+  border: none;
+  margin-top: 22px;
+}
+
+.cancel-button:hover {
+  color: black;
+}
+
+.proceed-button {
+  background-color: #3829e0;
+  padding: 1rem 0;
+  color: #ffffff;
+  box-shadow: 0 20px 30px -8px rgb(197 189 245);
+}
+
+.proceed-button:hover {
+  background-color: #736af1;
+}
+
+.attribution {
+   font-size: 11px; text-align: center; 
+}
+.attribution a {
+   color: #5164b0; 
+   text-decoration: none;
+}
